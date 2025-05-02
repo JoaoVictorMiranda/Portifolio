@@ -25,7 +25,8 @@ header h1 {
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: justify;
     padding: 2rem;
     background-color: #e0e0e0;
