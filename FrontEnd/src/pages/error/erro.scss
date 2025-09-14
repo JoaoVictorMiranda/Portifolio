@@ -1,0 +1,18 @@
+.container_erro {
+    .error {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        text-align: center;
+
+        a {
+            color: #171D1C;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.container_header {
+    nav {
+        padding: 1rem;
+
+        ul {
+            display: flex;
+            gap: 3rem;
+            font-size: 1.25rem;
+            font-weight: bold;
+            list-style: none;
+
+            li a {
+                color: #171D1C;
+                text-decoration: none;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
